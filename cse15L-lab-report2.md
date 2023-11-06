@@ -3,11 +3,13 @@ code
 
 ![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/code.jpeg)
 
-I invoked the method named "handleRequest" where I've encapsulated all the functionalities for querying URLs. This method requires the website's URL as a parameter, with pertinent details including the path of the website, the key for querying, and the messages to be queried. 
+In the `Handler` class, I implemented a method called `handleRequest` that is responsible for handling URL queries. This method takes a single parameter: the URL of the website to be queried. The URL should include specific details, such as the website's path, the key for querying, and the messages that need to be retrieved.
 
-To display new messages on the site, I need to modify the URL data, appending "/add-message?s=" to its tail. Within the code, I have already established an ArrayList designed to accumulate all the messages. Consequently, each time a message is appended through the query request "/add-message?s=", it gets preserved in the ArrayList.
+For updating the website with new messages, the method modifies the URL by appending `"/add-message?s="` to the end of the URL string. The `Handler` class has an `ArrayList<String>` field named `messages` that stores all the messages. Each time a new message is submitted using the query `"/add-message?s="`, this message is added to the `ArrayList`.
 
-First I use /add-message?s=Hello,Hello become first message in Webpage.
+For example, when I submit a query using `"/add-message?s=Hello"`, the string "Hello" becomes the first message in the `messages` ArrayList, and as a result, it is displayed on the website.
+
+Regarding the class field `num`, it is indeed a relevant field in the `Handler` class. This integer field tracks the number of messages that have been added. With each `"/add-message"` request, the `num` field is incremented by one, reflecting the total count of messages stored in the `messages` ArrayList. After processing a message addition, `num` is updated to ensure that it always represents the current number of messages held in the list.
 
 ![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/Hello.jpeg)
 
