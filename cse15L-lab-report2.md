@@ -24,9 +24,9 @@ I also try add my name in webpage,it's become third message
 
 Part2
 
-![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/1.jpeg)
+![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/new2.jpeg)
 
-![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/2.jpeg)
+![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/new1.jpeg)
 
 ![image](https://raw.githubusercontent.com/zmc0806/cse15L-lab-report2/main/3.jpeg)
 
